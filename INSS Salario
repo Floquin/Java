@@ -18,15 +18,18 @@ public class Main{
 
 
     if (salario <= 1830.29){
-     JOptionPane.showMessageDialog(null,"Seu salario: " +valorfinal+  JOptionPane.INFORMATION_MESSAGE);
+     JOptionPane.showMessageDialog(null,"Aliquota INSS de 8%" +desconto8+
+     "\n"+"Seu valor liquido: " +valorfinal+  JOptionPane.INFORMATION_MESSAGE);
     }
 
    if (salario >= 1830.30 && salario <= 3050.52){
-     JOptionPane.showMessageDialog(null,"Seu salario ja descontado 9% : " +valorfinal2+ JOptionPane.INFORMATION_MESSAGE);
+     JOptionPane.showMessageDialog(null,"Aliquota INSS de 9%" +desconto9+
+     "/n"+"Seu valor liquido: " +valorfinal2+ JOptionPane.INFORMATION_MESSAGE);
     }
 
     if (salario >= 3050.53 && salario <= 6101.06){
-      JOptionPane.showMessageDialog(null,"Seu salario: " +valorfinal3+ JOptionPane.INFORMATION_MESSAGE);
+      JOptionPane.showMessageDialog(null,"Aliquota INSS de 11%" +desconto11+
+      "/n"+"Seu salario: " +valorfinal3+ JOptionPane.INFORMATION_MESSAGE);
     }
 
     if (salario > 6101.07){
