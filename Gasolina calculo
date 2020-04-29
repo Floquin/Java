@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+class Main{
+public static void main (String args []){
+
+double v, pag;
+
+
+v = Double.parseDouble(JOptionPane.showInputDialog(null,"Qual o valor da gasolina?","Gazoza", JOptionPane.QUESTION_MESSAGE));
+pag = Double.parseDouble(JOptionPane.showInputDialog(null,"Qual o valor do pagamento?","CPF NA NOTA", JOptionPane.QUESTION_MESSAGE));
+double litro = pag / p ;
+JOptionPane.showMessageDialog(null, "Você colocou :" +litro , "Quantidade de LITROS", JOptionPane.INFORMATION_MESSAGE);
+
+
+}
+}
